@@ -1,0 +1,20 @@
+.aboutUs{
+    background-color: red;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    height: 70px;
+    border-radius: 50px;
+}
+.aboutUs a{
+    align-items: center;
+    width: 60px;
+    height:70px;
+    border-radius: 5px;
+}
+.chartH1{
+    color: red;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}

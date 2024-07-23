@@ -1,0 +1,72 @@
+.title-cards{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+   
+}
+.title-cards h2{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    
+}
+.card-list{
+    display: flex;
+    gap: 10px;
+    overflow-x:scroll ; 
+    text-decoration: none ; 
+}
+.card-list::-webkit-scrollbar{
+    height: 20px;
+    
+}
+.card-list img{
+    margin-left: 20px;
+    
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+/* .card-list .card{
+    position: relative;
+}
+.card-list .card p {
+    position: absolute;
+    bottom: 10px;
+
+} */
+.card-list .card p {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none ; 
+    
+}
+.card-list img:hover{
+    background-color: #999;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none ; 
+}
+
+.card-list img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s ease;
+  }
+  .element:hover:before {
+    left: 100%;
+  }
+  .cardname  {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none ; 
+  }

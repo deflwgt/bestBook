@@ -1,0 +1,80 @@
+.aboutUs{
+    background-color: red;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    height: 70px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+.aboutUs a{
+    align-items: center;
+    width: 60px;
+    height:70px;
+    border-radius: 5px;
+
+    
+}
+.table {
+    width: 60%;
+    height: 60%;
+    background: rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 150px;
+    background-color: rgb(241, 10, 10);
+    margin: auto ;
+    font-size: 35px; 
+    
+}
+.table h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 55px;
+}
+.table p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 22px;
+}
+.choose {
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    gap: 10px;
+    text-decoration: none;
+}
+.choose ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    gap: 10px;
+    text-decoration: none;
+    gap :250px ;
+}
+.choose li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.choose ul li img{
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    gap :100px ;
+    border-radius: 100px;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    gap: 10px;
+    text-decoration: none;
+    gap :40px ;
+}
+
+

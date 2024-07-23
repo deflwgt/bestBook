@@ -1,0 +1,32 @@
+.cardcard {
+    border: 1px solid white;
+    background-color: antiquewhite;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.namename {
+    margin: 5px 10px;
+}
+
+.cardcard img {
+    padding: 10px;
+    border-radius: 30px;
+    height: 250px;
+
+}
+
+.contentcontent {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    white-space: break-word;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}

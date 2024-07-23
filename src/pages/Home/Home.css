@@ -1,0 +1,54 @@
+.hero{
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,transparent,black 50%);
+    -weblit-mask-image: linear-gradient(to top, transparent , black 75%)
+}
+.hero-caption{
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+   
+}
+.caption-img{
+    margin-top: 30px;
+    width: 90%;
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+.hero-caption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.hero-btns{
+    display: flex;
+    gap: 10px ; 
+    margin-bottom: 50px;
+}
+.hero-btns .btn img{
+width: 25px;
+}
+.hero-btns .btn{
+    border: 0;
+    outline :0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #6d6d6eb3;
+    border-radius:  4px; 
+    cursor: pointer;
+}
+.hero-btns .btn:hover{
+    background: #ffffffbf;
+}
+.more-cards{
+    padding-left: 6%;
+    
+} 

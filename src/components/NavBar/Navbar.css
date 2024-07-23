@@ -1,0 +1,90 @@
+.navbar{
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 10%, transparent);
+    z-index: 1; 
+    text-decoration: none;
+}
+
+.navbar-left{
+    
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+.navbar-left img{
+    width: 90px;
+}
+.navbar-left ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar-left ul li {
+    cursor: pointer;
+}
+.navbar-left ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.navbar-left img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.7;
+}
+
+.navbar-right{
+    display:flex;
+    gap: 50px;
+    align-items: flex-end;
+}
+
+.navbar-right .icons{
+    width: 30px;
+    cursor: pointer;
+}
+.navbar-left .profile{
+    border-radius: 4px;
+    width: 35px;
+}
+.navbar-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+    cursor: pointer;
+    position: relative;
+}
+.navbar .dropdown_nav{
+    position: absolute;
+    top : 100%;
+    right: 0 ;
+    width: max-content;
+    background: #191919;
+    padding: 18px 22px;
+    border-radius: 2px;
+    text-decoration: none;
+    z-index: 1;
+    display: none ;
+    color: white;
+    }
+.navbar .dropdown_nav p {
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}  
+.navbar .dropdown_nav p a{
+    text-decoration: none;
+    color: white;
+} 
+.navbar-profile:hover .dropdown_nav{
+display: block;
+text-decoration: none;
+}

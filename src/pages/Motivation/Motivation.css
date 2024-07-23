@@ -1,0 +1,58 @@
+.aboutUs{
+    background-color: red;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    height: 70px;
+    border-radius: 50px;
+}
+.aboutUs a{
+    align-items: center;
+    width: 60px;
+    height:70px;
+    border-radius: 5px;
+}
+.header h1 {
+    font-size: 10px;
+    padding-bottom: 20px;
+} 
+.header p{
+  font-size: 20px;
+}
+
+/* styles.css */
+.book-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .article-card {
+    display: flex;
+    width: 80%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .article-image img {
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  .article-content {
+    flex: 2;
+    padding: 10px;
+    color: white;
+ 
+  }
+  .article-content h3 {
+        font-size: 30px;
+        text-decoration: underline;
+  }
+  .article-content p{ 
+    margin: 0;
+    padding: 0;
+  }

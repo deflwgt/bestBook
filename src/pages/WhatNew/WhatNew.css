@@ -1,0 +1,24 @@
+.aboutUs{
+    background-color: red;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    height: 70px;
+    border-radius: 50px;
+}
+.aboutUs a{
+    align-items: center;
+    width: 60px;
+    height:70px;
+    border-radius: 5px;
+}
+.convert{
+    margin-left: 44px;
+    
+}
+.convert h1{
+    margin-bottom: 10px;
+}
+.convert p{
+    margin-bottom: 10px;
+}
